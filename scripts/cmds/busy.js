@@ -7,7 +7,7 @@ module.exports = {
 		version: "1.6",
 		author: "NTKhang",
 		countDown: 5,
-		role: 0,
+		role: 2,
 		description: {
 			vi: "bật chế độ không làm phiền, khi bạn được tag bot sẽ thông báo",
 			en: "turn on do not disturb mode, when you are tagged bot will notify"
@@ -28,7 +28,7 @@ module.exports = {
 			turnedOnWithReason: "✓ | Đã bật chế độ không làm phiền với lý do: %1",
 			turnedOnWithoutReason: "✓ | Đã bật chế độ không làm phiền",
 			alreadyOn: "Hiện tại người dùng %1 đang bận",
-			alreadyOnWithReason: "Hiện tại người dùng %1 đang bận với lý do: %2"
+			alreadyOnWithReason: "%2"
 		},
 		en: {
 			turnedOff: "✓ | Do not disturb mode has been turned off",
@@ -36,7 +36,7 @@ module.exports = {
 			turnedOnWithReason: "✓ | Do not disturb mode has been turned on with reason: %1",
 			turnedOnWithoutReason: "✓ | Do not disturb mode has been turned on",
 			alreadyOn: "User %1 is currently busy",
-			alreadyOnWithReason: "User %1 is currently busy with reason: %2"
+			alreadyOnWithReason: "%2"
 		}
 	},
 
